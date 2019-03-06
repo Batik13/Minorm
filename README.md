@@ -7,7 +7,7 @@ git clone https://github.com/Batik13/Minorm.git
 ```
 or
 ```
-composer require minorm/minorm
+composer require minorm/minorm:dev-master
 ```
 
 ### Get start:
