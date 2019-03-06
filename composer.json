@@ -4,7 +4,7 @@
   "description": "Simple ORM library with error logging",
   "keywords": ["log","logging","orm"],
   "homepage": "https://github.com/Batik13/Minorm",
-  "license": "CSI",
+  "license": "ISC",
   "authors": [
     {
       "name": "Batraz Zaritskiy",
