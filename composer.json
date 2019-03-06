@@ -1,0 +1,20 @@
+{
+  "name": "minorm/minorm",
+  "type": "library",
+  "description": "Simple ORM library with error logging",
+  "keywords": ["log","logging","orm"],
+  "homepage": "https://github.com/Batik13/Minorm",
+  "license": "CSI",
+  "authors": [
+    {
+      "name": "Batraz Zaritskiy",
+      "email": "batik1315@gmail.com",
+      "homepage": "https://github.com/Batik13",
+      "role": "Developer"
+    }
+  ],
+  "require": {
+      "php": "^5.3.0",
+      "another-vendor/package": "1.*"
+  }
+}
