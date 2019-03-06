@@ -16,27 +16,27 @@ connect namespace and create an instance of the class
 use Minorm\Minorm;
 $minorm = new Minorm();
 ```
-return by id
+**return by id**
 ```
 $minorm->get('pages', 5);
 ```
-arbitrary request
+**arbitrary request**
 ```
 $minorm->query("SELECT * FROM pages WHERE url='contacts'");
 ```
-insert record
+**insert**
 ```
 $minorm->insert('pages', [
   NULL, 'Contacts', 'contacts', 'content...'
 ]);
 ```
-update record
+**update**
 ```
 $minorm->update('pages', [
   'text' => 'new content'
 ], 12);
 ```
-delete record
+**delete**
 ```
 $minorm->delete('pages', '9,10');
 ```
